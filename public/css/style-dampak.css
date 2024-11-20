@@ -1,0 +1,11 @@
+.judul{
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.background{
+    background-image: url('dampak/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
