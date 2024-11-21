@@ -12,6 +12,13 @@ app.config(['$routeProvider', function ($routeProvider) {
         .when('/sustainable', {
             templateUrl: 'views/sustainable.html'
         })
+        .when('/fashion', {
+            templateUrl: 'views/fashion.html'
+        })
+        .when('/login', {
+            templateUrl: 'views/login.html',
+            controller: 'LoginController'
+        })
         .otherwise({
             redirectTo: '/home'
         });
