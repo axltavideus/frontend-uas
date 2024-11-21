@@ -1,11 +1,19 @@
 .judul{
     font-size: 62px;
     font-weight: 400;
+    padding-top: 15%;
 }
 
 .background{
-    background-image: url('assets/background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-color: #254D32; */
+}
+
+.bawah-judul{
+    width: 25%;
+    margin-top: 5%;
+}
+
+.text-bawah-judul{
+    color: #254D32;
+    font-weight: bold;
 }
