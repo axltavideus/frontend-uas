@@ -4,21 +4,112 @@
     <div class="container-fluid">
         <div class="background grid gap-5">
             <h1 class="wrap-text judul g-col-6" style="width: 35%;">Dampak produksi dan konsumsi fashion.</h1>
-            
+
             <div class="container-fluid d-flex bawah-judul w-100 g-col-6">
                 <div class="row">
                     <!-- First column starts with the same width as the heading -->
-                    <div class="col-md-4 bawah-judul"> 
-                        <h1 class="text-center text-bawah-judul">20%</h1>
-                        <p class="wrap-text ms-4">of industrial water pollution comes from textile dyeing and finishing processes.</p>
+                    <div class="col-md-4 bawah-judul">
+                        <h1 class="text-center ms-4 text-bawah-judul">20%</h1>
+                        <p class="wrap-text ms-4 text-center">of industrial water pollution comes from textile dyeing
+                            and finishing processes.</p>
                     </div>
                     <!-- Second column -->
                     <div class="col-md-8 bawah-judul">
-                        <h1 class="text-center text-bawah-judul">10%</h1>
-                        <p class="wrap-text ms-4">of global carbon emissions comes from the fashion industry.</p>
+                        <h1 class="text-center ms-4 text-bawah-judul">10%</h1>
+                        <p class="wrap-text ms-4 text-center">of global carbon emissions comes from the fashion
+                            industry.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container-fluid w-50 carousel-bawah">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card mb-3" style="min-width: 620px;">
+                        <div class="row g-0">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3" style="min-width: 620px;">
+                        <div class="row g-0">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3" style="min-width: 620px;">
+                        <div class="row g-0">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev tombol-carousel" role="button" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next tombol-carousel" role="button" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center bawah-container text-bawah-judul">Hanya 1%</h1>
+        <h2 class="text-center">Pakaian bekas di daur ulang.</h2>
+    </div>
+
+    <form action="/submit" method="POST">
+        <div class="container bawah-container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" type="textarea" name="textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <button class="submit-button" type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
 </div>
