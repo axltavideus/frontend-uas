@@ -1,0 +1,14 @@
+.hero-carousel {
+    height: 100vh;
+  }
+  
+  .hero-carousel .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .carousel-caption {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
