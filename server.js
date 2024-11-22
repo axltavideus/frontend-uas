@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 const homeRouter = require('./routes/home/index');
-const formRouter = require('./routes/form');
+const reviewsRouter = require('./routes/reviews');
 
 async function connectToDatabase() {
   try {
@@ -15,7 +15,6 @@ async function connectToDatabase() {
     console.error(err);
   }
 }
-
 connectToDatabase();
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -23,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use('/', homeRouter);
-app.use('/form', formRouter);
+app.use('/reviews', reviewsRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

@@ -24,3 +24,9 @@ app.config(['$routeProvider', function ($routeProvider) {
         });
     }
 ]);
+
+app.run(['$rootScope', '$location', function ($rootScope, $location) {
+    $rootScope.isLoginPage = function () {
+        return $location.path() === '/login';
+    };
+}]);
